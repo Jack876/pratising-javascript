@@ -16,3 +16,15 @@ var joinedString = '';
 // Only change code below this line.
 
 joinedString = joinMe.join(' ');
+
+
+
+
+function reverseString(str) {
+  arr = str.split('');
+  newarr = arr.reverse();
+  new_str = newarr.join('');
+  return new_str;
+}
+
+reverseString("hello");
