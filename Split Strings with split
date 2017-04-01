@@ -1,0 +1,18 @@
+var string = "Split me into an array";
+var array = [];
+
+// Only change code below this line.
+
+array = string.split(' ');
+
+
+array = string.split(' ');
+
+
+
+var joinMe = ["Split","me","into","an","array"];
+var joinedString = '';
+
+// Only change code below this line.
+
+joinedString = joinMe.join(' ');
